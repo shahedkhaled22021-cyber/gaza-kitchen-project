@@ -1,0 +1,228 @@
+{
+  "totalVisits": 979,
+  "uniqueVisitors": 4,
+  "uniqueVisitorHashes": [
+    "7a6c9fc697f12f3417dd879c5c9ff5bcf42eef828ff150a4207dc466a3323248",
+    "1ff17d583e6d6af58fb605f239c2c0e148a6bc18b97747120bd617393658513a",
+    "1f679347ff1302765649d8328c2eb15d472faa807211d19038a2f0d683ec7639",
+    "5e1dcd67d0ea63bde91e5c70458baca397ff405bc606c4b3580b8993fff41929"
+  ],
+  "searches": {
+    "4": 2,
+    "سماق": 1,
+    "بصل": 4,
+    "بصل زيت لوز": 1,
+    "بصل و زيت و لوز": 2,
+    "لوز": 1,
+    "سلق و عدس": 1,
+    "مسخن": 1,
+    "رمان": 1,
+    ".": 2,
+    "لانشون": 2,
+    "سماقية": 11,
+    "شاورما التونة": 1,
+    "فتة غزاوية": 1,
+    "طحينة حمراء": 2,
+    "بقدونس": 3
+  },
+  "recipeViews": {
+    "r3": 3,
+    "r4": 3,
+    "r2": 2,
+    "r5": 5,
+    "b6a80c24-4936-41ba-9708-61732e769d10": 10,
+    "r1": 5,
+    "8dea7666-9ce2-4b76-a910-48300f1515fa": 1,
+    "cf90e24b-5d79-4b2b-a7d9-5e112456aad9": 3,
+    "4cc7fef2-ad7f-49e6-ab92-1c7eb2b1fc4a": 2,
+    "97c6416e-c404-4b31-a094-95a8d8c484c1": 2,
+    "7d61279f-1e6a-4d74-b613-76c5c7674ce4": 2,
+    "7dfa0713-cd66-4079-8298-1bb791cd7c42": 1,
+    "f9013bb0-187c-4de0-b769-059256429f74": 1,
+    "a1698567-0a26-498b-a86b-953eaa0062a1": 3,
+    "bf4c9d75-a2a7-4c88-9425-762888e320ff": 2,
+    "7cacaa96-1e32-4c1f-97ab-0b89946bbf74": 3,
+    "179c5e01-27be-4266-bc19-ea8782e48a04": 3,
+    "090bae0c-d7c3-447f-9fd4-1a7cb6085375": 8,
+    "180ab571-ef10-49ad-b07a-709855481247": 4,
+    "4fa6ba4c-4739-425b-8ee3-ed103f30e9b9": 1,
+    "b63dfb5d-a855-4824-bdee-5453830beaff": 3,
+    "0b0039fc-d8c7-4f58-805e-96a46b455e03": 2,
+    "963d6098-9228-4d56-969c-58663ec23f33": 4,
+    "31638fde-73d9-4b45-8f28-b821d898fc1f": 1,
+    "753d6fd4-d984-4858-b378-5fe7bb0eaba6": 1,
+    "632a386f-5fdd-4e11-a812-2cef7cbd427b": 1
+  },
+  "pageViews": {
+    "/": 43,
+    "/api/recipes": 103,
+    "/styles.css": 44,
+    "/assets/logo.svg": 3,
+    "/app.js": 44,
+    "/api/admin/check": 88,
+    "/favicon.ico": 82,
+    "/api/recipes/r3": 3,
+    "/api/search-log": 36,
+    "/api/admin/login": 21,
+    "/api/admin/recipes": 120,
+    "/api/admin/stats": 226,
+    "/api/admin/recipes/r1": 2,
+    "/api/admin/recipes/r2": 1,
+    "/api/admin/recipes/r3": 1,
+    "/api/recipes/r4": 3,
+    "/api/admin/recipes/r4": 1,
+    "/assets/logo1-removebg-preview%20(1).png": 41,
+    "/api/recipes/r2": 2,
+    "/api/recipes/r5": 5,
+    "/api/admin/recipes/r5": 1,
+    "/api/admin/logout": 7,
+    "/api/recipes/b6a80c24-4936-41ba-9708-61732e769d10": 10,
+    "/api/admin/recipes/b6a80c24-4936-41ba-9708-61732e769d10": 4,
+    "/api/recipes/r1": 5,
+    "/api/admin/recipes/8dea7666-9ce2-4b76-a910-48300f1515fa": 2,
+    "/api/recipes/8dea7666-9ce2-4b76-a910-48300f1515fa": 1,
+    "/api/recipes/cf90e24b-5d79-4b2b-a7d9-5e112456aad9": 3,
+    "/api/admin/recipes/cf90e24b-5d79-4b2b-a7d9-5e112456aad9": 1,
+    "/api/admin/recipes/15d28d95-a605-447c-b077-21d5fc01fefa": 3,
+    "/api/admin/recipes/4cc7fef2-ad7f-49e6-ab92-1c7eb2b1fc4a": 1,
+    "/api/recipes/4cc7fef2-ad7f-49e6-ab92-1c7eb2b1fc4a": 2,
+    "/api/recipes/97c6416e-c404-4b31-a094-95a8d8c484c1": 2,
+    "/api/recipes/7d61279f-1e6a-4d74-b613-76c5c7674ce4": 2,
+    "/api/admin/recipes/7d61279f-1e6a-4d74-b613-76c5c7674ce4": 1,
+    "/api/admin/recipes/7dfa0713-cd66-4079-8298-1bb791cd7c42": 1,
+    "/api/recipes/7dfa0713-cd66-4079-8298-1bb791cd7c42": 1,
+    "/api/admin/recipes/bf4c9d75-a2a7-4c88-9425-762888e320ff": 1,
+    "/api/admin/recipes/a1698567-0a26-498b-a86b-953eaa0062a1": 1,
+    "/api/admin/recipes/179c5e01-27be-4266-bc19-ea8782e48a04": 1,
+    "/api/admin/recipes/f9013bb0-187c-4de0-b769-059256429f74": 1,
+    "/api/recipes/f9013bb0-187c-4de0-b769-059256429f74": 1,
+    "/api/recipes/a1698567-0a26-498b-a86b-953eaa0062a1": 3,
+    "/api/recipes/bf4c9d75-a2a7-4c88-9425-762888e320ff": 2,
+    "/api/recipes/7cacaa96-1e32-4c1f-97ab-0b89946bbf74": 3,
+    "/api/recipes/179c5e01-27be-4266-bc19-ea8782e48a04": 3,
+    "/api/admin/recipes/090bae0c-d7c3-447f-9fd4-1a7cb6085375": 2,
+    "/api/recipes/090bae0c-d7c3-447f-9fd4-1a7cb6085375": 8,
+    "/api/admin/recipes/7cacaa96-1e32-4c1f-97ab-0b89946bbf74": 1,
+    "/api/recipes/180ab571-ef10-49ad-b07a-709855481247": 4,
+    "/api/admin/recipes/180ab571-ef10-49ad-b07a-709855481247": 1,
+    "/api/recipes/4fa6ba4c-4739-425b-8ee3-ed103f30e9b9": 1,
+    "/api/admin/recipes/4fa6ba4c-4739-425b-8ee3-ed103f30e9b9": 1,
+    "/%D8%A9%D9%85%D9%86%D8%A9": 1,
+    "/api/admin/recipes/c7f7f15e-f757-4380-b713-56dcd40b2338": 1,
+    "/wrong-url": 7,
+    "/admin/dashboard": 1,
+    "/admin": 1,
+    "/admin/": 1,
+    "/api/admin/recipes/56404d8f-7ca7-4b2c-a976-f620fce2be78": 1,
+    "/api/admin/recipes/b63dfb5d-a855-4824-bdee-5453830beaff": 1,
+    "/api/recipes/b63dfb5d-a855-4824-bdee-5453830beaff": 3,
+    "/api/recipes/0b0039fc-d8c7-4f58-805e-96a46b455e03": 2,
+    "/api/recipes/963d6098-9228-4d56-969c-58663ec23f33": 4,
+    "/api/recipes/31638fde-73d9-4b45-8f28-b821d898fc1f": 1,
+    "/api/recipes/753d6fd4-d984-4858-b378-5fe7bb0eaba6": 1,
+    "/api/admin/recipes/31638fde-73d9-4b45-8f28-b821d898fc1f": 3,
+    "/api/recipes/632a386f-5fdd-4e11-a812-2cef7cbd427b": 1
+  },
+  "adminActions": [
+    {
+      "type": "delete",
+      "details": "تم حذف وصفة: خبز العدس",
+      "at": "2026-06-19T13:41:04.511Z"
+    },
+    {
+      "type": "update",
+      "details": "تم تعديل وصفة: خبز العدس",
+      "at": "2026-06-19T13:40:49.591Z"
+    },
+    {
+      "type": "update",
+      "details": "تم تعديل وصفة: خبز العدس",
+      "at": "2026-06-19T13:21:54.785Z"
+    },
+    {
+      "type": "login",
+      "details": "تم تسجيل دخول الأدمن",
+      "at": "2026-06-19T13:16:22.561Z"
+    },
+    {
+      "type": "login",
+      "details": "تم تسجيل دخول الأدمن",
+      "at": "2026-06-16T17:57:07.020Z"
+    },
+    {
+      "type": "create",
+      "details": "تمت إضافة وصفة: خبز العدس",
+      "at": "2026-06-08T13:43:21.532Z"
+    },
+    {
+      "type": "create",
+      "details": "تمت إضافة وصفة: خبز المعكرونة",
+      "at": "2026-06-08T13:32:40.674Z"
+    },
+    {
+      "type": "login",
+      "details": "تم تسجيل دخول الأدمن",
+      "at": "2026-06-08T12:56:14.021Z"
+    },
+    {
+      "type": "create",
+      "details": "تمت إضافة وصفة: كباب العدس",
+      "at": "2026-05-20T13:51:08.315Z"
+    },
+    {
+      "type": "update",
+      "details": "تم تعديل وصفة: برياني التونة",
+      "at": "2026-05-20T13:14:27.000Z"
+    },
+    {
+      "type": "create",
+      "details": "تمت إضافة وصفة: برياني التونة",
+      "at": "2026-05-20T13:13:59.445Z"
+    },
+    {
+      "type": "create",
+      "details": "تمت إضافة وصفة: شاورما التونة",
+      "at": "2026-05-20T12:56:36.130Z"
+    },
+    {
+      "type": "login",
+      "details": "تم تسجيل دخول الأدمن",
+      "at": "2026-05-20T12:41:48.474Z"
+    },
+    {
+      "type": "login",
+      "details": "تم تسجيل دخول الأدمن",
+      "at": "2026-05-19T17:22:04.799Z"
+    },
+    {
+      "type": "update",
+      "details": "تم تعديل وصفة: خبيزة",
+      "at": "2026-05-12T12:33:41.014Z"
+    },
+    {
+      "type": "create",
+      "details": "تمت إضافة وصفة: محشي الخبيزة",
+      "at": "2026-05-12T12:32:48.902Z"
+    },
+    {
+      "type": "create",
+      "details": "تمت إضافة وصفة: خبيزة",
+      "at": "2026-05-12T12:23:51.999Z"
+    },
+    {
+      "type": "login",
+      "details": "تم تسجيل دخول الأدمن",
+      "at": "2026-05-12T12:14:44.416Z"
+    },
+    {
+      "type": "login",
+      "details": "تم تسجيل دخول الأدمن",
+      "at": "2026-05-11T12:05:22.484Z"
+    },
+    {
+      "type": "delete",
+      "details": "تم حذف وصفة: ةن",
+      "at": "2026-05-04T08:59:48.779Z"
+    }
+  ]
+}

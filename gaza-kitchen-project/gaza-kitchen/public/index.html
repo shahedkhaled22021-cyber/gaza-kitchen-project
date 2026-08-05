@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaza Kitchen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="pattern"></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">
+        <img src="assets/logo1-removebg-preview (1).png"  alt="Gaza Kitchen logo" />
+        <div>
+          <strong>Gaza Kitchen</strong>
+          <span>نكهات غزة... ذاكرة وهوية</span>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <a href="#home">الرئيسية</a>
+        <a href="#recipes">الوصفات</a>
+        <a href="#wartime">وصفات الحرب</a>
+        <a href="#stats">إحصائيات الموقع</a>
+        <!-- <a href="#admin">الأدمن</a> -->
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <span class="badge">منصة توثيق تراثي رقمي</span>
+          <h1>Gaza Kitchen</h1>
+          <p class="hero-text">منصة ويب عربية لحفظ الوصفات الغزية التقليدية ووصفات الحرب في مكان منظم، قابل للبحث، وبواجهة حديثة بطابع تراثي.</p>
+          <div class="hero-actions">
+            <a href="#recipes" class="btn btn-primary">استكشف الوصفات</a>
+            <!-- <a href="#admin" class="btn btn-secondary">لوحة الأدمن</a> -->
+          </div>
+          <div class="hero-stats">
+            <div class="mini-card"><strong id="heroRecipesCount">0</strong><span>وصفة محفوظة</span></div>
+            <div class="mini-card"><strong id="heroVisitsCount">0</strong><span>زيارة للموقع</span></div>
+            <div class="mini-card"><strong>عربي</strong><span>لغة المنصة</span></div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <p>تراث • أصالة • صمود</p>
+            <h2>وصفات غزة من الذاكرة إلى الويب</h2>
+            <span>بحث بالاسم أو المكوّنات • قسم خاص لوصفات الحرب</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section container">
+      <div class="section-heading">
+        <span>مميزات المنصة</span>
+        <h2>تصميم بسيط وواضح وسهل الاستخدام</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><h3>تصفح حسب الفئة</h3><p>عرض منظم للوصفات التقليدية ووصفات الحرب في بطاقات واضحة.</p></article>
+        <article class="feature-card"><h3>بحث ذكي بسيط</h3><p>إمكانية البحث باسم الوصفة أو بأحد المكونات بسهولة.</p></article>
+        <article class="feature-card"><h3>تفاصيل كاملة</h3><p>كل وصفة تحتوي على المكونات والخطوات والقصة المرتبطة بها.</p></article>
+        <!-- <article class="feature-card"><h3>لوحة أدمن</h3><p>إضافة وتعديل وحذف الوصفات مع متابعة نشاط الموقع والإحصائيات.</p></article> -->
+      </div>
+    </section>
+
+    <section class="recipes-section container" id="recipes">
+      <div class="section-heading with-row">
+        <div>
+          <span>الوصفات</span>
+          <h2>تصفح الوصفات الغزية</h2>
+        </div>
+        <div class="controls">
+          <input type="text" id="searchInput" placeholder="ابحث باسم الوصفة أو المكون" />
+          <select id="categoryFilter">
+            <option value="all">كل الوصفات</option>
+            <option value="traditional">وصفات تقليدية</option>
+            <option value="wartime">وصفات الحرب</option>
+          </select>
+          <button class="btn btn-primary small" id="searchBtn">بحث</button>
+        </div>
+      </div>
+      <div id="recipesGrid" class="recipes-grid"></div>
+    </section>
+
+    <section class="wartime-section container" id="wartime">
+      <div class="section-heading">
+        <span>قسم خاص</span>
+        <h2>وصفات الحرب والصمود</h2>
+        <p>يوثّق هذا القسم وصفات ظهرت أو تغيّرت بسبب ظروف الحرب، الحصار، وندرة المكوّنات.</p>
+      </div>
+      <div id="wartimeGrid" class="recipes-grid"></div>
+    </section>
+
+    <section class="stats-section container" id="stats">
+      <div class="section-heading">
+        <span>تحليلات</span>
+        <h2>إحصائيات حية للموقع</h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card"><h3>عدد الوصفات</h3><strong id="totalRecipes">0</strong></div>
+        <div class="stat-card"><h3>زيارات الموقع</h3><strong id="totalVisits">0</strong></div>
+        <div class="stat-card"><h3>الزوار الفريدون</h3><strong id="uniqueVisitors">0</strong></div>
+        <div class="stat-card"><h3>وصفات الحرب</h3><strong id="wartimeCount">0</strong></div>
+      </div>
+      <div class="insight-grid">
+        <div class="insight-card">
+          <h3>الأكثر بحثًا</h3>
+          <ul id="topSearchesList" class="rank-list"></ul>
+        </div>
+        <div class="insight-card">
+          <h3>الأكثر مشاهدة</h3>
+          <ul id="topViewedList" class="rank-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="admin-section container" id="admin">
+      <div class="section-heading">
+        <span>لوحة الإدارة</span>
+        <h2>إدارة الوصفات ومتابعة النشاط</h2>
+      </div>
+
+      <div id="adminLoginCard" class="admin-login-card">
+        <h3>تسجيل دخول الأدمن</h3>
+        <p>للدخول استخدمي البريد وكلمة المرور الموجودة في ملف التشغيل.</p>
+        <form id="loginForm" class="admin-form">
+          <input type="email" id="adminEmail" placeholder="البريد الإلكتروني" required />
+          <input type="password" id="adminPassword" placeholder="كلمة المرور" required />
+          <button class="btn btn-primary" type="submit">دخول</button>
+        </form>
+        <p id="loginMessage" class="form-message"></p>
+      </div>
+
+      <div id="adminPanel" class="admin-panel hidden">
+        <div class="panel-topbar">
+          <h3>لوحة الأدمن</h3>
+          <button id="logoutBtn" class="btn btn-secondary small">تسجيل خروج</button>
+        </div>
+
+        <div class="admin-grid">
+          <div class="admin-card">
+            <h4 id="formTitle">إضافة وصفة جديدة</h4>
+            <form id="recipeForm" class="admin-form">
+              <input type="hidden" id="recipeId" />
+              <input type="text" id="recipeName" placeholder="اسم الوصفة" required />
+              <select id="recipeCategory" required>
+                <option value="traditional">وصفة تقليدية</option>
+                <option value="wartime">وصفة حرب</option>
+              </select>
+              <input type="text" id="recipeImage" placeholder="رابط صورة الوصفة" required />
+              <input type="text" id="recipePrepTime" placeholder="مدة التحضير" required />
+              <textarea id="recipeShortDescription" placeholder="وصف قصير" required></textarea>
+              <textarea id="recipeStory" placeholder="قصة أو سياق الوصفة"></textarea>
+              <textarea id="recipeIngredients" placeholder="المكونات - كل مكون في سطر" required></textarea>
+              <textarea id="recipeSteps" placeholder="خطوات التحضير - كل خطوة في سطر" required></textarea>
+              <textarea id="recipeTags" placeholder="الكلمات المفتاحية - كل كلمة في سطر"></textarea>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary">حفظ</button>
+                <button type="button" class="btn btn-secondary" id="cancelEditBtn">إلغاء</button>
+              </div>
+            </form>
+          </div>
+          <div class="admin-card">
+            <h4>إدارة الوصفات</h4>
+            <div id="adminRecipesList" class="admin-recipes-list"></div>
+          </div>
+        </div>
+
+        <div class="admin-grid lower">
+          <div class="admin-card">
+            <h4>آخر نشاط إداري</h4>
+            <ul id="recentActionsList" class="activity-list"></ul>
+          </div>
+          <div class="admin-card">
+            <h4>ملخص سريع</h4>
+            <div class="quick-summary" id="quickSummary"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="recipeModal" class="modal hidden">
+    <div class="modal-content">
+      <button id="closeModal" class="close-btn">×</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2026 Gaza Kitchen — منصة رقمية لحفظ الوصفات الغزية التقليدية ووصفات الحرب.</p>
+      <a href="#home">العودة للأعلى</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

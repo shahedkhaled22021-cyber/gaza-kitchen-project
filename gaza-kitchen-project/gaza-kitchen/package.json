@@ -1,0 +1,17 @@
+{
+  "name": "gaza-kitchen",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Gaza Kitchen full-stack project",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-session": "^1.19.0"
+  }
+}
